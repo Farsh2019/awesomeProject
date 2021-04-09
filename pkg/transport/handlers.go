@@ -13,6 +13,6 @@ func Router() *mux.Router {
 	return r
 }
 
-func helloWorld(w http.ResponseWriter, _*http.Request){
-	fmt.Fprint(w,"Hello world!")
+func helloWorld(w http.ResponseWriter, _ *http.Request) {
+	fmt.Fprint(w, "Hello world!")
 }
